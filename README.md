@@ -17,7 +17,6 @@ No projeto está contido as APIs de "CREATE" e "DELETE" de um CRUD básico.
 </p>
 <p>
 Os parâmetros que foram salvos vão conter no mínimo 4, que será: Nome, Força, Poder e Origem.
-Utilizando o banco de dados MongoDB atlas para fazer toda a estrutura de dados online. 
 </p>
 
 ### 📋 Pré-requisitos
@@ -44,3 +43,28 @@ npm install --save moongose
 ```
 npm install --save uuid
 ```
+
+### 🔧 Instalação
+
+<p>
+Utilizarem o Postman que é uma API Client que facilita aos desenvolvedores criar, compartilhar, testar e documentar APIs. Isso é feito, permitindo aos usuários criar e salvar solicitações HTTP e HTTPs simples e complexas, bem como ler suas respostas.
+</p>
+
+<p>
+Utilizando o banco de dados MongoDB atlas para fazer toda a estrutura de dados online.
+</p>
+
+* [Postman](https://www.postman.com/downloads/) - A API Client usada
+* [MongoDBatlas](https://www.mongodb.com/pt-br/cloud/atlas/register) - O Banco de Dados utilizado
+
+## 🎁 Ajuda sobre este projeoto
+
+<p>
+Podem encontrar ajuda sobre este projeto no link abaixo do GitHub.
+</p>
+
+* [GitHub](https://github.com/RafaelaPapale/laboratorio-c214) - Ajuda sobre o projeto
+
+## ✒️ Autores
+
+* **Daniel Jardim Nunes** - *Documentação* - [DanielJardimNunes](https://github.com/DanielJardiim)
