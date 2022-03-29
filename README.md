@@ -22,9 +22,25 @@ Utilizando o banco de dados MongoDB atlas para fazer toda a estrutura de dados o
 
 ### 📋 Pré-requisitos
 
-De que coisas você precisa para instalar o software e como instalá-lo?
+<p>
+Antes de iniciarmos o código e rodarmos, vamos ter que instalar esses programas utilizando o npm install.
+</p>
 
 ```
-Dar exemplos
+npm install --save express
 ```
-
+```
+npm install --save cors
+```
+```
+npm install --save http-status-codes
+```
+```
+npm install --save validate.js
+```
+```
+npm install --save moongose
+```
+```
+npm install --save uuid
+```
