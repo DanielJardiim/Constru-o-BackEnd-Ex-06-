@@ -43,6 +43,9 @@ npm install --save moongose
 ```
 npm install --save uuid
 ```
+```
+npm install --save jest
+```
 
 ### 🔧 Instalação
 
