@@ -1,22 +1,26 @@
 <h1 align="center">
-Construção BackEnd (Ex:06) com teste unitário (Ex:07)
+Construção BackEnd (Ex:06), com teste unitário (Ex:07) e teste mock (Ex:08)
 </h1>
 
 <p>
-O projeto "Construção BackEnd (Ex:06) com teste unitário (Ex:07)", trata de uma introdução de com utilizar comandos e APIs, para que ao interagir com um computador ou sistema para recuperar informações ou executar uma função, 
+O projeto "Construção BackEnd (Ex:06), com teste unitário (Ex:07) e teste mock (Ex:08)", trata de uma introdução de como utilizar comandos e APIs, para que ao interagir com um computador ou sistema para recuperar informações ou executar uma função, 
 a API ajudará a comunicar o que você quer ao sistema para que ele entenda e realize o que foi solicitado
+</p>
+
+<p>
+Utilizando testes Unitários e testes Mock's aprendidos nas aulas anteriores: aula 7 e aula 8, para assim deixar o código mais proficional e seguro com os testes.
 </p>
 
 ### 🚀 Funcionalidades
 
 <p>
-Utilizando os conhecimentos adquiridos durante as outras aulas, vamos criar um projeto com no mínimo 2 APIs REST de um CRUD básico de super-heróis.
+Utilizando os conhecimentos adquiridos durante as outras aulas, vamos criar um projeto com no mínimo 2 APIs REST de um CRUD básico de músicas.
 </p>
 <p>
-No projeto está contido as APIs de "CREATE" e "DELETE" de um CRUD básico.
+No projeto está contido as APIs de "CREATE", "UPDATE", "DELETE", "LIST" de um CRUD básico.
 </p>
 <p>
-Os parâmetros que foram salvos vão conter no mínimo 4, que será: Nome, Força, Poder e Origem.
+Os parâmetros que foram salvos vão conter no mínimo 3, que será: nomeMusica, duracaoMusica, autorMusica.
 </p>
 
 ### 📋 Pré-requisitos
