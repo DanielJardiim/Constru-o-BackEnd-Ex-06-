@@ -9,8 +9,18 @@ module.exports = (app) => {
         res.status(Utils.responseStatus(response.name));
         res.json(response);
     });
+    app.put(`${route}/update`, async (req, res) => {
+        const response = await Users.update(req.body);
+        res.status(Utils.responseStatus(response.name));
+        res.json(response);
+    });
     app.delete(`${route}/delete`, async (req, res) => {
         const response = await Users.delete(req.body);
+        res.status(Utils.responseStatus(response.name));
+        res.json(response);
+    });
+    app.get(`${route}/list`, async (req, res) => {
+        const response = await Users.list();
         res.status(Utils.responseStatus(response.name));
         res.json(response);
     });

@@ -1,23 +1,47 @@
 const create = {
-    nome: {
+    nomeMusica: {
         presence: {
             allowEmpty: false,
         },
         type: 'string',
     },
-    forca: {
+    duracaoMusica: {
         presence: {
             allowEmpty: false,
         },
         type: 'string',
     },
-    poder: {
+    autorMusica: {
         presence: {
             allowEmpty: false,
         },
         type: 'string',
     },
-    origem: {
+};
+
+const update = {
+    nomeMusica: {
+        presence: {
+            allowEmpty: false,
+        },
+        type: 'string',
+    },
+    duracaoMusica: {
+        presence: {
+            allowEmpty: false,
+        },
+        type: 'string',
+    },
+    autorMusica: {
+        presence: {
+            allowEmpty: false,
+        },
+        type: 'string',
+    },
+};
+
+const get = {
+    nomeMusica: {
         presence: {
             allowEmpty: false,
         },
@@ -26,7 +50,7 @@ const create = {
 };
 
 const deleteBy = {
-    nome: {
+    nomeMusica: {
         presence: {
             allowEmpty: false,
         },
@@ -36,5 +60,7 @@ const deleteBy = {
 
 module.exports = {
     create,
+    update,
+    get,
     deleteBy,
 };

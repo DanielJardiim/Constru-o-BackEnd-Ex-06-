@@ -15,13 +15,12 @@ const UsersSchema = new Schema({
         index: true,
         unique: true,
     },
-    nome:{
+    nomeMusica:{
         type:String,
         unique:true,
     },
-    forca:String,
-    poder:String,
-    origem:String,
+    duracaoMusica:String,
+    autorMusica:String,
 });
 
 const UsersModel = mongoose.model('UsersModel', UsersSchema);
